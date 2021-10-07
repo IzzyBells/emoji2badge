@@ -1,4 +1,3 @@
-::Turn of displaying the code on the screen
 @echo off
 
 ::Create subdirectory
