@@ -1,7 +1,9 @@
 @echo off
 
-::Create subdirectory
-if not exist "%1\badges\nul" md "%1\badges"
+set "emojidir=%~1"
 
-:: Read all the images from the directory, resize them, save as a 64x64 png in badges subdirectory
-for %%f in (%1\*.png) do ( magick convert "%%f" -resize 64x64 %1\badges\%%~nf.png )
+::Create badges subdirectory
+if not exist "%emojidir%\badges\nul" md "%emojidir%\badges"
+
+:: Read all the images from the emoji directory, then resize them and save as a 64x64 png in new badges subdirectory using ImageMagick
+for %%f in ("%emojidir%"\*.png) do ( magick convert "%%f" -resize 64x64 "%emojidir%"\badges\%%~nf.png )
