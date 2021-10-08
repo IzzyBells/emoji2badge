@@ -16,3 +16,5 @@ Alternatively, if the emoji directory inside the same directory as emoji2badge.b
 ```emoji2badge "emoji folder"```
 
 After running the script, it should have created a `badges` subdirectory inside of your emoji directory, which has resized copies of your Discord emojis inside, ready to be used with [GYTB](https://github.com/MrCheeze/GYTB).
+
+![Now you can make your 3DS just as terrible as mine!](https://github.com/IzzyBells/emoji2badge/blob/main/emoji2badge%20screencap.png?raw=true)
