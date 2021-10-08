@@ -1,7 +1,7 @@
 # emoji2badge
 # Simple batch script to resize a directory full of discord emojis for use as 3DS badges.
 
-This is a Windows script takes a directory with pre-made static PNG Discord emojis inside, either your own or ripped from a server using [thatiemsz's Discord Emoji Downloader](https://thatiemsz.github.io/Discord-Emoji-Downloader/), and resizes each of them to the proper size to be imported as 1x1 tile 3DS badges by [MrCheeze's GYTB](https://github.com/MrCheeze/GYTB).
+This is a Windows script that takes a directory with pre-made static PNG Discord emojis inside, either your own or ripped from a server using [thatiemsz's Discord Emoji Downloader](https://thatiemsz.github.io/Discord-Emoji-Downloader/), and resizes each of them to the proper size to be imported as 1x1 tile 3DS badges by [MrCheeze's GYTB](https://github.com/MrCheeze/GYTB).
 
 # Prerequisites
 - Windows 10 (no reason it shouldn't work on earlier Windows versions, this is just what I use)
